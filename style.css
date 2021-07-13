@@ -1,0 +1,570 @@
+@media (max-width: 375px)
+{
+   .mob li 
+   {
+       display: inline-block;
+       padding-right: 25px;
+       margin-top: 15px;
+       margin-bottom: 40px;
+   }
+   .mob li a
+   {
+       text-decoration: none;
+       color: black;
+       padding: 10px;
+       font-size: 20px;
+   }
+   .mob li a:hover
+   {
+       background-color: red;
+       border-radius: 10px;
+   }
+
+.box5-2 p
+{
+    display: none;
+}
+.box6-2 p
+{
+    display: none;
+}
+.box7-2 p
+{
+    display: none;
+}
+.box1
+   {
+       display: none;
+   }
+   .container
+{
+    margin: auto;
+    width: 100%;
+    background: red;
+    
+}
+header
+{
+    width: 90%;
+    height: 50px;
+    margin: auto;
+    background:rgb(26, 121, 149);
+    margin-bottom: 20px;
+}
+main
+{
+   margin-top: 40px;
+    width: 90%;
+    margin: auto;
+    height: 750px;
+    background-color: #7D5F39;
+    margin-bottom: 20px;
+    overflow: auto;
+    position: relative;
+}
+footer
+{
+    width: 90%;
+    margin: auto;
+    height: 92px;
+    background:rgb(26, 121, 149);
+}
+
+.submainbox2
+{
+    position: absolute;
+    width: 300px;
+    height: 250px;
+    top: 0;
+    left: 10%; 
+    margin-top: 25px;
+
+
+}
+.box2-1
+{
+    width: 100px;
+    height: 100px;
+    background: url(https://picsum.photos/id/870/200/300?grayscale&blur=2) 20% no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    display: inline-block;
+
+}
+.box2-2
+{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+
+/* ****************** */
+.submainbox3
+{
+    position: absolute;
+    width: 300px;
+    height: 250px;
+    top: 150px;
+    left: 0; 
+    margin-top: 25px;
+    display: inline-block;
+}
+.box3-1
+{
+    width: 100px;
+    height: 100px;
+    background: url(https://picsum.photos/id/970/200/300?grayscale&blur=2) 20% no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    left: 160px;
+
+}
+.box3-2
+{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 50px;
+
+
+}
+/* ************************* */
+.submainbox4
+{
+    position: absolute;
+    width: 300px;
+    height: 250px;
+    top: 300px;
+    left: 0; 
+    margin-top: 25px;
+    display: inline-block;
+}
+.box4-1
+{
+    width: 100px;
+    height: 100px;
+    background: url(https://picsum.photos/id/1070/200/300?grayscale&blur=2) 20% no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    left: 30px;
+    top: 20px;
+
+}
+.box4-2
+{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 150px;
+
+
+}
+
+}
+/* ************************************************* */
+@media (min-width: 375px) and (max-width: 850px)
+{
+    .tab
+    {
+        display: none;
+    }
+   .box1
+   {
+       display: none;
+   }
+   .container
+{
+    margin: auto;
+    width: 100%;
+    background: red;
+}
+header
+{
+    width: 90%;
+    margin: auto;
+    height: 92px;
+    background:rgb(26, 121, 149);
+    margin-bottom: 20px;
+}
+main
+{
+   margin-top: 40px;
+    width: 90%;
+    margin: auto;
+    height: 750px;
+    background-color: #7D5F39;
+    margin-bottom: 20px;
+    overflow: auto;
+    position: relative;
+}
+    /* ---------------------------------- */
+.submainbox2
+{
+    position: absolute;
+    width: 25%;
+    height: 250px;
+    top: 0;
+    left: 10%; 
+    margin-top: 25px;
+
+}
+.box2-1
+{
+    width: 150px;
+    height: 150px;
+    background: url(https://picsum.photos/id/870/200/300?grayscale&blur=2) 20% no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+/* ---------------------------------- */
+.submainbox3
+{
+    position: absolute;
+    width: 25%;
+    height: 250px;
+    top: 290px;
+    left: 10%; 
+}
+.box3-1
+{
+    width: 150px;
+    height: 150px;
+    background: url(https://picsum.photos/id/236/200/300?grayscale&blur=2) 20% no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    margin-top: 25px;
+}
+/* --------------------------------------- */
+.submainbox4
+{
+    position: absolute;
+    width: 25%;
+    height: 250px;
+    top: 600px;
+    left: 10%; 
+}
+.box4-1
+{
+    width: 150px;
+    height: 150px;
+    background: url(https://picsum.photos/id/336/200/300?grayscale&blur=2) 20% no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    margin-top: 25px;
+}
+/* ------------------------------------- */
+/* ---------------------------------- */
+.submainbox5
+{
+    position: absolute;
+    width: 25%;
+    height: 250px;
+    top: 0;
+    right: 12%; 
+    /* margin-right: 50px; */
+}
+.box5-1
+{
+    width: 150px;
+    height: 150px;
+    background: url(https://picsum.photos/id/970/200/300?grayscale&blur=2) 20% no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    margin-top: 25px;
+   
+
+}
+
+/* ---------------------------------- */
+.submainbox6
+{
+    position: absolute;
+    width: 25%;
+    height: 250px;
+    top: 290px;
+    right: 12%; 
+    /* margin-right: 50px; */
+}
+.box6-1
+{
+    width: 150px;
+    height: 150px;
+    background: url(https://picsum.photos/id/436/200/300?grayscale&blur=2) 20% no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    margin-top: 25px;
+}
+/* --------------------------------------- */
+.submainbox7
+{
+    position: absolute;
+    width: 25%;
+    height: 250px;
+    top: 600px;
+    right: 12%; 
+    /* margin-right: 50px; */
+}
+.box7-1
+{
+    width: 150px;
+    height: 150px;
+    background: url(https://picsum.photos/id/836/200/300?grayscale&blur=2) 20% no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 25px;
+}
+/* ------------------------------------- */
+
+footer
+{
+    width: 90%;
+    margin: auto;
+    height: 92px;
+    background:rgb(26, 121, 149);
+}
+}
+@media (min-width: 850px) 
+{
+    .lab
+    {
+        display: none;
+    }
+
+p
+{
+    display: none;
+}
+.container
+{
+    margin: auto;
+    width: 100%;
+    background: red;
+}
+header
+{
+    width: 90%;
+    margin: auto;
+    height: 92px;
+    background:rgb(26, 121, 149);
+    margin-bottom: 20px;
+}
+h2
+{
+    padding-top: 90px;
+    text-align: center;
+}
+main
+{
+   margin-top: 40px;
+    width: 90%;
+    margin: auto;
+    height: 750px;
+    background-color: #7D5F39;
+    margin-bottom: 20px;
+    overflow: auto;
+    position: relative;
+}
+.box1
+{
+    position: absolute;
+    background-color: white;
+    width: 20%;
+    height: 250px;
+    top: 280px;
+    left: 40%; 
+}
+/* ---------------------------------- */
+.submainbox2
+{
+    position: absolute;
+    /* background-color: white; */
+    width: 25%;
+    height: 250px;
+    top: 0;
+    left: 20%; 
+}
+.box2-1
+{
+    width: 150px;
+    height: 150px;
+    background: url(https://picsum.photos/id/870/200/300?grayscale&blur=2) 20% no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 25px;
+}
+.box2-2
+{
+    width: 20%;
+    height: 150px;
+    border: black solid 1px;
+
+    display: inline-block;
+    margin-top: 25px;
+}
+/* ---------------------------------- */
+.submainbox3
+{
+    position: absolute;
+    /* background-color: white; */
+    width: 25%;
+    height: 250px;
+    top: 290px;
+    left: 5%; 
+}
+.box3-1
+{
+    width: 150px;
+    height: 150px;
+    background: url(https://picsum.photos/id/236/200/300?grayscale&blur=2) 20% no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 25px;
+}
+.box3-2
+{
+    width: 20%;
+    height: 150px;
+    display: inline-block;
+    margin-top: 25px;
+    border: black solid 1px;
+}
+/* --------------------------------------- */
+.submainbox4
+{
+    position: absolute;
+    /* background-color: white;  */
+    width: 25%;
+    height: 250px;
+    top: 600px;
+    left: 20%; 
+}
+.box4-1
+{
+    width: 150px;
+    height: 150px;
+    background: url(https://picsum.photos/id/336/200/300?grayscale&blur=2) 20% no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 25px;
+}
+.box4-2
+{
+    width: 20%;
+    height: 150px;
+    display: inline-block;
+    margin-top: 25px;
+    border: black solid 1px;
+}
+/* ------------------------------------- */
+/* ---------------------------------- */
+.submainbox5
+{
+    position: absolute;
+    width: 25%;
+    height: 250px;
+    top: 0;
+    left: 60%; 
+}
+.box5-1
+{
+    width: 150px;
+    height: 150px;
+    background: url(https://picsum.photos/id/970/200/300?grayscale&blur=2) 20% no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 25px;
+}
+.box5-2
+{
+    width: 20%;
+    height: 150px;
+    border: black solid 1px;
+
+    display: inline-block;
+    margin-top: 25px;
+}
+/* ---------------------------------- */
+.submainbox6
+{
+    position: absolute;
+    width: 25%;
+    height: 250px;
+    top: 290px;
+    right: 5%; 
+}
+.box6-1
+{
+    width: 150px;
+    height: 150px;
+    background: url(https://picsum.photos/id/436/200/300?grayscale&blur=2) 20% no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 25px;
+}
+.box6-2
+{
+    width: 20%;
+    height: 150px;
+    display: inline-block;
+    margin-top: 25px;
+    border: black solid 1px;
+}
+
+/* --------------------------------------- */
+.submainbox7
+{
+    position: absolute;
+    width: 25%;
+    height: 250px;
+    top: 600px;
+    right: 20%; 
+}
+.box7-1
+{
+    width: 150px;
+    height: 150px;
+    background: url(https://picsum.photos/id/836/200/300?grayscale&blur=2) 20% no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 25px;
+}
+.box7-2
+{
+    width: 20%;
+    height: 150px;
+    display: inline-block;
+    margin-top: 25px;
+    border: black solid 1px;
+}
+/* ------------------------------------- */
+.foter-main
+{
+    background-color: blue;
+    width: 100%;
+    margin: auto;
+    height: 100px;
+    position: absolute;
+    top: 900px;
+}
+footer
+{
+    width: 90%;
+    margin: auto;
+    height: 92px;
+    background:rgb(26, 121, 149);
+}
+}
